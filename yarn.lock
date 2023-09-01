@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anthropic-ai/sdk@npm:^0.5.7":
-  version: 0.5.10
-  resolution: "@anthropic-ai/sdk@npm:0.5.10"
+"@anthropic-ai/sdk@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "@anthropic-ai/sdk@npm:0.6.2"
   dependencies:
     "@types/node": "npm:^18.11.18"
     "@types/node-fetch": "npm:^2.6.4"
@@ -34,7 +34,7 @@ __metadata:
     form-data-encoder: "npm:1.7.2"
     formdata-node: "npm:^4.3.2"
     node-fetch: "npm:^2.6.7"
-  checksum: 3a8ab4de7b21477a2be965ecbf90c62d0702002fdd13779c511b56614f35c831d843188f2c5fa75fa662ba23f018ba2942a8527b262ff04f13d13dedd301aaf3
+  checksum: 75712f24fbf27dd8fb38279268080e9a7e6a2b44ba09f9e175fcf539e1aab1256f50de404b1392d5864cd6f33cc58ac46f9058081b075b0ad452e71c9df2e18a
   languageName: node
   linkType: hard
 
@@ -496,7 +496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-import-assertions@npm:^7.22.5":
+"@babel/plugin-syntax-import-assertions@npm:7.22.5, @babel/plugin-syntax-import-assertions@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/plugin-syntax-import-assertions@npm:7.22.5"
   dependencies:
@@ -507,7 +507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-import-attributes@npm:7.22.5, @babel/plugin-syntax-import-attributes@npm:^7.22.5":
+"@babel/plugin-syntax-import-attributes@npm:^7.22.5":
   version: 7.22.5
   resolution: "@babel/plugin-syntax-import-attributes@npm:7.22.5"
   dependencies:
@@ -930,7 +930,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-modules-commonjs@npm:^7.22.5":
+"@babel/plugin-transform-modules-commonjs@npm:^7.22.11, @babel/plugin-transform-modules-commonjs@npm:^7.22.5":
   version: 7.22.11
   resolution: "@babel/plugin-transform-modules-commonjs@npm:7.22.11"
   dependencies:
@@ -1260,7 +1260,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-typescript@npm:^7.22.5":
+"@babel/plugin-transform-typescript@npm:^7.22.11":
   version: 7.22.11
   resolution: "@babel/plugin-transform-typescript@npm:7.22.11"
   dependencies:
@@ -1440,18 +1440,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:7.22.5":
-  version: 7.22.5
-  resolution: "@babel/preset-typescript@npm:7.22.5"
+"@babel/preset-typescript@npm:7.22.11":
+  version: 7.22.11
+  resolution: "@babel/preset-typescript@npm:7.22.11"
   dependencies:
     "@babel/helper-plugin-utils": "npm:^7.22.5"
     "@babel/helper-validator-option": "npm:^7.22.5"
     "@babel/plugin-syntax-jsx": "npm:^7.22.5"
-    "@babel/plugin-transform-modules-commonjs": "npm:^7.22.5"
-    "@babel/plugin-transform-typescript": "npm:^7.22.5"
+    "@babel/plugin-transform-modules-commonjs": "npm:^7.22.11"
+    "@babel/plugin-transform-typescript": "npm:^7.22.11"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 2d5924be38bdfea693548359dc547e8bb2c51793d6293168a7248d5ac1f5e94c5f8acea115b006bdd6fa4a20a8e92aa87a826a4aeaf143649e1683d0fe1b82d6
+  checksum: a28d9ecc37376b93ae57be1a27647d5f7a8d5757bbb9fcb691ff1ca4273bfb7508aa91bad6c46fbd490d929ae3a2ef766bf996014b2f0a876815d196aabacdc9
   languageName: node
   linkType: hard
 
@@ -2106,9 +2106,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-node-resolve@npm:15.2.0":
-  version: 15.2.0
-  resolution: "@rollup/plugin-node-resolve@npm:15.2.0"
+"@rollup/plugin-node-resolve@npm:15.2.1":
+  version: 15.2.1
+  resolution: "@rollup/plugin-node-resolve@npm:15.2.1"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     "@types/resolve": "npm:1.20.2"
@@ -2121,7 +2121,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 616328595762b529fe676496b1bf2ba6b89dec54dfc70f0959c54145dd6474191301cade7444f79b5057df4573bfda746f8a0f05f4352666a2adfd865466a761
+  checksum: 4ea8a3ab63df635cc61da04fe88110b0449880bf8e128b8690473eca7d2f38913dcd37e6f1445cb75ffcd7a810fa737d1ea318af9565cdab16037d3285b2f2f7
   languageName: node
   linkType: hard
 
@@ -2156,23 +2156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:5.0.3":
-  version: 5.0.3
-  resolution: "@rollup/pluginutils@npm:5.0.3"
-  dependencies:
-    "@types/estree": "npm:^1.0.0"
-    estree-walker: "npm:^2.0.2"
-    picomatch: "npm:^2.3.1"
-  peerDependencies:
-    rollup: ^1.20.0||^2.0.0||^3.0.0
-  peerDependenciesMeta:
-    rollup:
-      optional: true
-  checksum: ceccecb6f9b0d53d2745b0e84c4618c669edd6fb66a769955aec38ff534fd811230bf6113545886c7dbaf657245a92714cc897206a2234e63c6f2bbe51c0d4f3
-  languageName: node
-  linkType: hard
-
-"@rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.2":
+"@rollup/pluginutils@npm:5.0.4, @rollup/pluginutils@npm:^5.0.1, @rollup/pluginutils@npm:^5.0.2":
   version: 5.0.4
   resolution: "@rollup/pluginutils@npm:5.0.4"
   dependencies:
@@ -2418,10 +2402,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.5.6":
+"@types/node@npm:*":
   version: 20.5.6
   resolution: "@types/node@npm:20.5.6"
   checksum: 27534a00f46ef0aab0a9ba717fdf23f2a32152e576a8c7971eb98cdcbae82cb331903a6a826124de6eb90b970f02bba9f0353fad3ad92b0c65ee2379f1f1b692
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.5.7":
+  version: 20.5.7
+  resolution: "@types/node@npm:20.5.7"
+  checksum: e5bce3d38478f2a135e254e910f40f844d379dbc8d5576ec6532122297c435f9c05e01f585c38fb9a83e21bde2652cc266b6aa98e45c8b5e51cc5b11a4f64cf0
   languageName: node
   linkType: hard
 
@@ -2660,13 +2651,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/shared-lib-node@npm:2.8.1":
-  version: 2.8.1
-  resolution: "@willbooster/shared-lib-node@npm:2.8.1"
+"@willbooster/shared-lib-node@npm:2.8.3":
+  version: 2.8.3
+  resolution: "@willbooster/shared-lib-node@npm:2.8.3"
   dependencies:
     dotenv: "npm:16.3.1"
     tree-kill: "npm:1.2.2"
-  checksum: ba0224b5646c3fc69f43f39345e656053c8b48c305926ba83aa024723ad03919907b224b122892c1162db5bc58db0dcce7464564df512b4a4de430446188f81c
+  checksum: 77d784e164eec80db27f9b80963412eac6f8e33d8958f58a10724edff10f3c9eccde5b2062e809e1be79b1b9b5495b6fe6769feb2336f4eeb0837cc5d2a11107
   languageName: node
   linkType: hard
 
@@ -3221,26 +3212,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:8.3.1":
-  version: 8.3.1
-  resolution: "build-ts@npm:8.3.1"
+"build-ts@npm:8.4.3":
+  version: 8.4.3
+  resolution: "build-ts@npm:8.4.3"
   dependencies:
     "@babel/core": "npm:7.22.10"
     "@babel/plugin-proposal-decorators": "npm:7.22.10"
     "@babel/plugin-proposal-explicit-resource-management": "npm:7.22.6"
-    "@babel/plugin-syntax-import-attributes": "npm:7.22.5"
+    "@babel/plugin-syntax-import-assertions": "npm:7.22.5"
     "@babel/plugin-transform-runtime": "npm:7.22.10"
     "@babel/preset-env": "npm:7.22.10"
     "@babel/preset-react": "npm:7.22.5"
-    "@babel/preset-typescript": "npm:7.22.5"
+    "@babel/preset-typescript": "npm:7.22.11"
     "@rollup/plugin-babel": "npm:6.0.3"
     "@rollup/plugin-commonjs": "npm:25.0.4"
     "@rollup/plugin-json": "npm:6.0.0"
-    "@rollup/plugin-node-resolve": "npm:15.2.0"
+    "@rollup/plugin-node-resolve": "npm:15.2.1"
     "@rollup/plugin-replace": "npm:5.0.2"
     "@rollup/plugin-terser": "npm:0.4.3"
-    "@rollup/pluginutils": "npm:5.0.3"
-    "@willbooster/shared-lib-node": "npm:2.8.1"
+    "@rollup/pluginutils": "npm:5.0.4"
+    "@willbooster/shared-lib-node": "npm:2.8.3"
     babel-plugin-polyfill-corejs3: "npm:0.8.3"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.3.0"
@@ -3248,7 +3239,7 @@ __metadata:
     core-js-pure: "npm:3.32.1"
     date-time: "npm:4.0.0"
     pretty-ms: "npm:8.0.0"
-    rollup: "npm:3.28.0"
+    rollup: "npm:3.28.1"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-keep-import: "npm:1.0.2"
     rollup-plugin-node-externals: "npm:6.1.1"
@@ -3260,7 +3251,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     build-ts: bin/index.js
-  checksum: 2a8c84fd9979627e3966b6a402938f67587b18b11e9bc604e63e5f039fbf0ec06d901a174f6c291101caf65eb4cdc92977644131a53f2fa5144e16b57dfed08d
+  checksum: 013205b90b535c001bede6dc47bb442cf1c1a8adf6e37e7b1f6feb3469f25287d7636589fb3fb49b8dccbe32cdd2a99cc5871b498ae09728a88410af84488c1c
   languageName: node
   linkType: hard
 
@@ -6033,11 +6024,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.134":
-  version: 0.0.134
-  resolution: "langchain@npm:0.0.134"
+"langchain@npm:0.0.139":
+  version: 0.0.139
+  resolution: "langchain@npm:0.0.139"
   dependencies:
-    "@anthropic-ai/sdk": "npm:^0.5.7"
+    "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
     binary-extensions: "npm:^2.2.0"
     camelcase: "npm:6"
@@ -6047,7 +6038,7 @@ __metadata:
     js-tiktoken: "npm:^1.0.7"
     js-yaml: "npm:^4.1.0"
     jsonpointer: "npm:^5.0.1"
-    langsmith: "npm:~0.0.26"
+    langsmith: "npm:~0.0.31"
     ml-distance: "npm:^4.0.0"
     object-hash: "npm:^3.0.0"
     openai: "npm:^3.3.0"
@@ -6073,7 +6064,7 @@ __metadata:
     "@clickhouse/client": ^0.0.14
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
-    "@getzep/zep-js": ^0.6.3
+    "@getzep/zep-js": ^0.7.0
     "@gomomento/sdk": ^1.23.0
     "@google-ai/generativelanguage": ^0.2.1
     "@google-cloud/storage": ^6.10.1
@@ -6094,6 +6085,7 @@ __metadata:
     "@tensorflow/tfjs-core": "*"
     "@tigrisdata/vector": ^1.1.0
     "@upstash/redis": ^1.20.6
+    "@writerai/writer-sdk": ^0.40.2
     "@xata.io/client": ^0.25.1
     "@zilliz/milvus2-sdk-node": ">=2.2.7"
     apify-client: ^2.7.1
@@ -6104,6 +6096,7 @@ __metadata:
     d3-dsv: ^2.0.0
     epub2: ^3.0.1
     faiss-node: ^0.3.0
+    fast-xml-parser: ^4.2.7
     firebase-admin: ^11.9.0
     google-auth-library: ^8.9.0
     hnswlib-node: ^1.4.2
@@ -6115,6 +6108,7 @@ __metadata:
     mammoth: "*"
     mongodb: ^5.2.0
     mysql2: ^3.3.3
+    node-llama-cpp: "*"
     notion-to-md: ^3.1.0
     pdf-parse: 1.1.1
     peggy: ^3.0.2
@@ -6205,6 +6199,8 @@ __metadata:
       optional: true
     "@upstash/redis":
       optional: true
+    "@writerai/writer-sdk":
+      optional: true
     "@xata.io/client":
       optional: true
     "@zilliz/milvus2-sdk-node":
@@ -6224,6 +6220,8 @@ __metadata:
     epub2:
       optional: true
     faiss-node:
+      optional: true
+    fast-xml-parser:
       optional: true
     firebase-admin:
       optional: true
@@ -6246,6 +6244,8 @@ __metadata:
     mongodb:
       optional: true
     mysql2:
+      optional: true
+    node-llama-cpp:
       optional: true
     notion-to-md:
       optional: true
@@ -6285,13 +6285,13 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: bee546eb78b9d9c98dc8770aca62a7a637286f3a0712f77731d4db7809318670c0c315996f003164dbbe44ad871e750cfe7b41c9dcf166ed791115f938428ea5
+  checksum: def1857e0914ba4d92b100cbdf34cfe274cc04f771294076fc02009360bf776b449c875ed1a14d3084d3c1b9db686ee0b2ed8340a4610a2224a01346e0707343
   languageName: node
   linkType: hard
 
-"langsmith@npm:~0.0.26":
-  version: 0.0.26
-  resolution: "langsmith@npm:0.0.26"
+"langsmith@npm:~0.0.31":
+  version: 0.0.32
+  resolution: "langsmith@npm:0.0.32"
   dependencies:
     "@types/uuid": "npm:^9.0.1"
     commander: "npm:^10.0.1"
@@ -6300,7 +6300,7 @@ __metadata:
     uuid: "npm:^9.0.0"
   bin:
     langsmith: dist/cli/main.cjs
-  checksum: 2f076eeeec2a0fd938fd75978543853fa4275a245577cfbe495de2ffb92445334f3490176dfd9b1ae5f2e6e381d26d8d6b407331cb39462d87973ee670f1e159
+  checksum: 9969049e697d9d3b610d52f20b0c03bf0ac7639e4baf911c03bd353c5b6f3cc2385ca194fb4c433ccc64d0ba5b02c46eecf49b4091a51b5c796c9a9f76e894b4
   languageName: node
   linkType: hard
 
@@ -6514,13 +6514,13 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
-    "@types/node": "npm:20.5.6"
+    "@types/node": "npm:20.5.7"
     "@types/yargs": "npm:^17"
     "@typescript-eslint/eslint-plugin": "npm:6.5.0"
     "@typescript-eslint/parser": "npm:6.5.0"
     "@willbooster/eslint-config-ts": "npm:10.5.0"
     "@willbooster/prettier-config": "npm:9.1.1"
-    build-ts: "npm:8.3.1"
+    build-ts: "npm:8.4.3"
     conventional-changelog-conventionalcommits: "npm:6.1.0"
     eslint: "npm:8.48.0"
     eslint-config-prettier: "npm:9.0.0"
@@ -6530,7 +6530,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.134"
+    langchain: "npm:0.0.139"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
@@ -8606,9 +8606,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.28.0":
-  version: 3.28.0
-  resolution: "rollup@npm:3.28.0"
+"rollup@npm:3.28.1":
+  version: 3.28.1
+  resolution: "rollup@npm:3.28.1"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -8616,7 +8616,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 0a0f963b4e36ec2b91373240cbed4db02ab96669454e9946d7433129cc088ee1f73d452d5920ee8e6c36e5158a7bc8e9fe037b260b9f8dd190ccb945f5be311a
+  checksum: e64df31db426d11044510ec2b150a969b8752e3e68090ebfd528f6523ca8a8d5b31f754d3bc0a9c6ecec907128600358d383b2961a1791aecc5d44f908035b4c
   languageName: node
   linkType: hard
 
