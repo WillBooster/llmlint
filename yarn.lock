@@ -2576,10 +2576,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.5.9":
-  version: 20.5.9
-  resolution: "@types/node@npm:20.5.9"
-  checksum: a071a19019b4045ba65cbacb3a24fcdf1ef41474fd15fb160a082a4c7aba7643b69c5d681637d2b0ce081f2127ce4332ea4d8bf007595efe8e82ba795872c7d0
+"@types/node@npm:20.6.1":
+  version: 20.6.1
+  resolution: "@types/node@npm:20.6.1"
+  checksum: 7610784c0ab98acdfbac0461fb6c0b1dfb904b67f52370a1e4ce5d1736d1838327e0282e5897f298215674735053efd81b329b2f2c841b6b3a2ee8381b51b8e1
   languageName: node
   linkType: hard
 
@@ -6201,9 +6201,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.146":
-  version: 0.0.146
-  resolution: "langchain@npm:0.0.146"
+"langchain@npm:0.0.150":
+  version: 0.0.150
+  resolution: "langchain@npm:0.0.150"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6248,7 +6248,7 @@ __metadata:
     "@google-cloud/storage": ^6.10.1
     "@huggingface/inference": ^1.5.1
     "@mozilla/readability": "*"
-    "@notionhq/client": ^2.2.5
+    "@notionhq/client": ^2.2.10
     "@opensearch-project/opensearch": "*"
     "@pinecone-database/pinecone": "*"
     "@planetscale/database": ^1.8.0
@@ -6296,7 +6296,7 @@ __metadata:
     playwright: ^1.32.1
     puppeteer: ^19.7.2
     redis: ^4.6.4
-    replicate: ^0.12.3
+    replicate: ^0.18.0
     sonix-speech-recognition: ^2.1.1
     srt-parser-2: ^1.2.2
     typeorm: ^0.3.12
@@ -6305,6 +6305,7 @@ __metadata:
     vectordb: ^0.1.4
     voy-search: 0.6.2
     weaviate-ts-client: ^1.4.0
+    web-auth-library: ^1.0.3
     youtube-transcript: ^1.0.6
     youtubei.js: ^5.8.0
   peerDependenciesMeta:
@@ -6462,11 +6463,13 @@ __metadata:
       optional: true
     weaviate-ts-client:
       optional: true
+    web-auth-library:
+      optional: true
     youtube-transcript:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 052d809618f199891bbb6041c257d52a179247218379a27f9f15176c9878a79054e8040b04f450883bb249f6bd47ae6fcd2e06ddffde854e4fb85cc8cb6d7c36
+  checksum: 4db7e3f8d6a5da27a79d59c39451a00f7c0525e9a2f0ae7df8f417b963b4bdd9cd5d5db1abff3fd099c53c8c7c4578fb45433aa0199de621df98a5861f65e3b7
   languageName: node
   linkType: hard
 
@@ -6702,7 +6705,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
-    "@types/node": "npm:20.5.9"
+    "@types/node": "npm:20.6.1"
     "@types/yargs": "npm:^17"
     "@typescript-eslint/eslint-plugin": "npm:6.7.0"
     "@typescript-eslint/parser": "npm:6.7.0"
@@ -6718,7 +6721,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.146"
+    langchain: "npm:0.0.150"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
