@@ -2576,10 +2576,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.6.1":
-  version: 20.6.1
-  resolution: "@types/node@npm:20.6.1"
-  checksum: 7610784c0ab98acdfbac0461fb6c0b1dfb904b67f52370a1e4ce5d1736d1838327e0282e5897f298215674735053efd81b329b2f2c841b6b3a2ee8381b51b8e1
+"@types/node@npm:20.6.3":
+  version: 20.6.3
+  resolution: "@types/node@npm:20.6.3"
+  checksum: d76d07e37cffebdd55a2836dde25d892d3144e030516fed7a70390fc51ab07bdd58fa674c19b50bcf0751af8e5e15ccd01a83804b88511ba821db42f2f3bd0bd
   languageName: node
   linkType: hard
 
@@ -2925,7 +2925,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
+"aggregate-error@npm:^4.0.0":
   version: 4.0.1
   resolution: "aggregate-error@npm:4.0.1"
   dependencies:
@@ -6232,9 +6232,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.150":
-  version: 0.0.150
-  resolution: "langchain@npm:0.0.150"
+"langchain@npm:0.0.153":
+  version: 0.0.153
+  resolution: "langchain@npm:0.0.153"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6271,6 +6271,7 @@ __metadata:
     "@aws-sdk/signature-v4": ^3.374.0
     "@azure/storage-blob": ^12.15.0
     "@clickhouse/client": ^0.0.14
+    "@cloudflare/workers-types": ^4.20230904.0
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
     "@getzep/zep-js": ^0.7.0
@@ -6363,6 +6364,8 @@ __metadata:
     "@azure/storage-blob":
       optional: true
     "@clickhouse/client":
+      optional: true
+    "@cloudflare/workers-types":
       optional: true
     "@elastic/elasticsearch":
       optional: true
@@ -6500,7 +6503,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 4db7e3f8d6a5da27a79d59c39451a00f7c0525e9a2f0ae7df8f417b963b4bdd9cd5d5db1abff3fd099c53c8c7c4578fb45433aa0199de621df98a5861f65e3b7
+  checksum: 94fc4b0a70765efd5386d4c71c795f93d21dfb15ba17ccb1acf6d40fc1ad7a5018998528c7e5c471565d0b30cce9988909cb0f88df3bd8c7b756d6546b0dd4df
   languageName: node
   linkType: hard
 
@@ -6736,7 +6739,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
-    "@types/node": "npm:20.6.1"
+    "@types/node": "npm:20.6.3"
     "@types/yargs": "npm:^17"
     "@typescript-eslint/eslint-plugin": "npm:6.7.2"
     "@typescript-eslint/parser": "npm:6.7.2"
@@ -6752,12 +6755,12 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.150"
+    langchain: "npm:0.0.153"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.0.3"
-    semantic-release: "npm:21.1.1"
+    semantic-release: "npm:21.1.2"
     sort-package-json: "npm:2.5.1"
     typescript: "npm:5.2.2"
     yargs: "npm:17.7.2"
@@ -9010,16 +9013,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.1.1":
-  version: 21.1.1
-  resolution: "semantic-release@npm:21.1.1"
+"semantic-release@npm:21.1.2":
+  version: 21.1.2
+  resolution: "semantic-release@npm:21.1.2"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^10.0.0"
     "@semantic-release/error": "npm:^4.0.0"
     "@semantic-release/github": "npm:^9.0.0"
     "@semantic-release/npm": "npm:^10.0.2"
     "@semantic-release/release-notes-generator": "npm:^11.0.0"
-    aggregate-error: "npm:^4.0.1"
+    aggregate-error: "npm:^5.0.0"
     cosmiconfig: "npm:^8.0.0"
     debug: "npm:^4.0.0"
     env-ci: "npm:^9.0.0"
@@ -9044,7 +9047,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 3d1210f4bece1bb354f20a4c6552a953b1dc9f4c0718e5f87b301ffb9917a790dc72ed32d8bd23dbcebe4542a3b5fcec936bd834a92ad90e00ee13bc36c345e2
+  checksum: 42ce478971a0c6a0ef1c5c5a08599879aeaecef0f175506c8e24178eb1cafea7127b7510214aa3e84640e4a1e3e36c4722ae391fa2182398d6902d3f61085509
   languageName: node
   linkType: hard
 
