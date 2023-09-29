@@ -2421,10 +2421,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.6.3":
-  version: 20.6.3
-  resolution: "@types/node@npm:20.6.3"
-  checksum: d76d07e37cffebdd55a2836dde25d892d3144e030516fed7a70390fc51ab07bdd58fa674c19b50bcf0751af8e5e15ccd01a83804b88511ba821db42f2f3bd0bd
+"@types/node@npm:20.7.2":
+  version: 20.7.2
+  resolution: "@types/node@npm:20.7.2"
+  checksum: 000144e64a8e3c909034f42f2a8f6f41842b2eee421e75b88e7bd881575d3a1b6e395e1abedce56d327dd7bf113131549e9c73ea0a15bb2385a0fb3fce51bcba
   languageName: node
   linkType: hard
 
@@ -2499,11 +2499,11 @@ __metadata:
   linkType: hard
 
 "@types/yargs@npm:^17":
-  version: 17.0.24
-  resolution: "@types/yargs@npm:17.0.24"
+  version: 17.0.26
+  resolution: "@types/yargs@npm:17.0.26"
   dependencies:
     "@types/yargs-parser": "npm:*"
-  checksum: fbebf57e1d04199e5e7eb0c67a402566fa27177ee21140664e63da826408793d203d262b48f8f41d4a7665126393d2e952a463e960e761226def247d9bbcdbd0
+  checksum: 34ab6eff6dff086b1044c65d53131e1d14e87c0c6dc44cb6851d74d8a4d1ac4503f7d12d1e1ecff25f8aea62ff7a9d6b04b05870a0324d15bbb226ddfc1d6065
   languageName: node
   linkType: hard
 
@@ -6011,9 +6011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.153":
-  version: 0.0.153
-  resolution: "langchain@npm:0.0.153"
+"langchain@npm:0.0.156":
+  version: 0.0.156
+  resolution: "langchain@npm:0.0.156"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6046,11 +6046,9 @@ __metadata:
     "@aws-sdk/client-sagemaker-runtime": ^3.310.0
     "@aws-sdk/client-sfn": ^3.310.0
     "@aws-sdk/credential-provider-node": ^3.388.0
-    "@aws-sdk/protocol-http": ^3.374.0
-    "@aws-sdk/signature-v4": ^3.374.0
     "@azure/storage-blob": ^12.15.0
     "@clickhouse/client": ^0.0.14
-    "@cloudflare/workers-types": ^4.20230904.0
+    "@cloudflare/ai": ^1.0.12
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
     "@getzep/zep-js": ^0.7.0
@@ -6066,6 +6064,8 @@ __metadata:
     "@qdrant/js-client-rest": ^1.2.0
     "@raycast/api": ^1.55.2
     "@smithy/eventstream-codec": ^2.0.5
+    "@smithy/protocol-http": ^3.0.6
+    "@smithy/signature-v4": ^2.0.10
     "@smithy/util-utf8": ^2.0.0
     "@supabase/postgrest-js": ^1.1.1
     "@supabase/supabase-js": ^2.10.0
@@ -6073,6 +6073,7 @@ __metadata:
     "@tensorflow/tfjs-converter": "*"
     "@tensorflow/tfjs-core": "*"
     "@upstash/redis": ^1.20.6
+    "@vercel/postgres": ^0.5.0
     "@writerai/writer-sdk": ^0.40.2
     "@xata.io/client": ^0.25.1
     "@xenova/transformers": ^2.5.4
@@ -6136,15 +6137,11 @@ __metadata:
       optional: true
     "@aws-sdk/credential-provider-node":
       optional: true
-    "@aws-sdk/protocol-http":
-      optional: true
-    "@aws-sdk/signature-v4":
-      optional: true
     "@azure/storage-blob":
       optional: true
     "@clickhouse/client":
       optional: true
-    "@cloudflare/workers-types":
+    "@cloudflare/ai":
       optional: true
     "@elastic/elasticsearch":
       optional: true
@@ -6176,6 +6173,10 @@ __metadata:
       optional: true
     "@smithy/eventstream-codec":
       optional: true
+    "@smithy/protocol-http":
+      optional: true
+    "@smithy/signature-v4":
+      optional: true
     "@smithy/util-utf8":
       optional: true
     "@supabase/postgrest-js":
@@ -6189,6 +6190,8 @@ __metadata:
     "@tensorflow/tfjs-core":
       optional: true
     "@upstash/redis":
+      optional: true
+    "@vercel/postgres":
       optional: true
     "@writerai/writer-sdk":
       optional: true
@@ -6282,7 +6285,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 94fc4b0a70765efd5386d4c71c795f93d21dfb15ba17ccb1acf6d40fc1ad7a5018998528c7e5c471565d0b30cce9988909cb0f88df3bd8c7b756d6546b0dd4df
+  checksum: 017fd89b2aca5ce3ebf79d7dabea61aa5c2562580d5d979e7c0855588fef715372172b96cbf19979b86e9aad9245ffc5e74238e9f52e2c69de12087841f5ac60
   languageName: node
   linkType: hard
 
@@ -6518,7 +6521,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
-    "@types/node": "npm:20.6.3"
+    "@types/node": "npm:20.7.2"
     "@types/yargs": "npm:^17"
     "@typescript-eslint/eslint-plugin": "npm:6.7.3"
     "@typescript-eslint/parser": "npm:6.7.3"
@@ -6534,7 +6537,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.153"
+    langchain: "npm:0.0.156"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
