@@ -2421,10 +2421,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.7.2":
-  version: 20.7.2
-  resolution: "@types/node@npm:20.7.2"
-  checksum: 000144e64a8e3c909034f42f2a8f6f41842b2eee421e75b88e7bd881575d3a1b6e395e1abedce56d327dd7bf113131549e9c73ea0a15bb2385a0fb3fce51bcba
+"@types/node@npm:20.8.2":
+  version: 20.8.2
+  resolution: "@types/node@npm:20.8.2"
+  checksum: e9952db222dd3e1cca1107d1b2aaec4e93b4af8b4fc32b42dd4fac3719f98c14edb8c591829c972d2f6e2b527bbb34af53608f6a7973f4a7dbd1d3bc929bbe8d
   languageName: node
   linkType: hard
 
@@ -6011,9 +6011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.156":
-  version: 0.0.156
-  resolution: "langchain@npm:0.0.156"
+"langchain@npm:0.0.161":
+  version: 0.0.161
+  resolution: "langchain@npm:0.0.161"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6035,10 +6035,11 @@ __metadata:
     p-retry: "npm:4"
     uuid: "npm:^9.0.0"
     yaml: "npm:^2.2.1"
-    zod: "npm:^3.21.4"
+    zod: "npm:^3.22.3"
     zod-to-json-schema: "npm:^3.20.4"
   peerDependencies:
     "@aws-crypto/sha256-js": ^5.0.0
+    "@aws-sdk/client-bedrock-runtime": ^3.422.0
     "@aws-sdk/client-dynamodb": ^3.310.0
     "@aws-sdk/client-kendra": ^3.352.0
     "@aws-sdk/client-lambda": ^3.310.0
@@ -6059,7 +6060,7 @@ __metadata:
     "@mozilla/readability": "*"
     "@notionhq/client": ^2.2.10
     "@opensearch-project/opensearch": "*"
-    "@pinecone-database/pinecone": "*"
+    "@pinecone-database/pinecone": ^1.1.0
     "@planetscale/database": ^1.8.0
     "@qdrant/js-client-rest": ^1.2.0
     "@raycast/api": ^1.55.2
@@ -6089,6 +6090,7 @@ __metadata:
     fast-xml-parser: ^4.2.7
     firebase-admin: ^11.9.0
     google-auth-library: ^8.9.0
+    googleapis: ^126.0.1
     hnswlib-node: ^1.4.2
     html-to-text: ^9.0.5
     ignore: ^5.2.0
@@ -6098,6 +6100,7 @@ __metadata:
     mammoth: "*"
     mongodb: ^5.2.0
     mysql2: ^3.3.3
+    neo4j-driver: "*"
     node-llama-cpp: "*"
     notion-to-md: ^3.1.0
     pdf-parse: 1.1.1
@@ -6122,6 +6125,8 @@ __metadata:
     youtubei.js: ^5.8.0
   peerDependenciesMeta:
     "@aws-crypto/sha256-js":
+      optional: true
+    "@aws-sdk/client-bedrock-runtime":
       optional: true
     "@aws-sdk/client-dynamodb":
       optional: true
@@ -6223,6 +6228,8 @@ __metadata:
       optional: true
     google-auth-library:
       optional: true
+    googleapis:
+      optional: true
     hnswlib-node:
       optional: true
     html-to-text:
@@ -6240,6 +6247,8 @@ __metadata:
     mongodb:
       optional: true
     mysql2:
+      optional: true
+    neo4j-driver:
       optional: true
     node-llama-cpp:
       optional: true
@@ -6285,7 +6294,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 017fd89b2aca5ce3ebf79d7dabea61aa5c2562580d5d979e7c0855588fef715372172b96cbf19979b86e9aad9245ffc5e74238e9f52e2c69de12087841f5ac60
+  checksum: 7a3e6d16b8220f1cb078a4212b52638c54019116a8280ea83b0bf6de54b33a274de31d24ecb30d6adbc22be4bd00559851c6d2d3d2062b024dafd87b25857db0
   languageName: node
   linkType: hard
 
@@ -6521,7 +6530,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:^8"
-    "@types/node": "npm:20.7.2"
+    "@types/node": "npm:20.8.2"
     "@types/yargs": "npm:^17"
     "@typescript-eslint/eslint-plugin": "npm:6.7.4"
     "@typescript-eslint/parser": "npm:6.7.4"
@@ -6537,7 +6546,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.156"
+    langchain: "npm:0.0.161"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
@@ -9952,9 +9961,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.21.4":
-  version: 3.22.2
-  resolution: "zod@npm:3.22.2"
-  checksum: 10afd994bcec3affb81776adc486871bfa6790037f57f0e45280e99baed8c3df5f46c5ab65a6d7921a00dffd9fab299e4492519dd6bb5d2eb3de9a67d3eb8051
+"zod@npm:^3.22.3":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 7578ab283dac0eee66a0ad0fc4a7f28c43e6745aadb3a529f59a4b851aa10872b3890398b3160f257f4b6817b4ce643debdda4fb21a2c040adda7862cab0a587
   languageName: node
   linkType: hard
