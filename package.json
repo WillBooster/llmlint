@@ -31,7 +31,7 @@
     "yargs": "17.7.2"
   },
   "devDependencies": {
-    "@types/eslint": "^8",
+    "@types/eslint": "8.44.3",
     "@types/node": "20.8.2",
     "@types/yargs": "^17",
     "@typescript-eslint/eslint-plugin": "6.7.5",
