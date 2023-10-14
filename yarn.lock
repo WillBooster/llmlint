@@ -2373,13 +2373,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.44.3":
-  version: 8.44.3
-  resolution: "@types/eslint@npm:8.44.3"
+"@types/eslint@npm:8.44.4":
+  version: 8.44.4
+  resolution: "@types/eslint@npm:8.44.4"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: d9d681efe461ec8934800a89773be251a200c9d4528ca2330bb99f4ca3bd6b2d053034d2b5fe645a1567331af2c89e364aed4be8c839f10a1028a3cbe2856b01
+  checksum: dd554ee39dbc3558e04f31873d2c00d8949869b5ec2325315ae2d04acb124d91e2b434309362e55d6bc76bd9df30a927ba4ebf4b1819d8549ffadc6cf87d4240
   languageName: node
   linkType: hard
 
@@ -2421,10 +2421,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.8.2":
-  version: 20.8.2
-  resolution: "@types/node@npm:20.8.2"
-  checksum: e9952db222dd3e1cca1107d1b2aaec4e93b4af8b4fc32b42dd4fac3719f98c14edb8c591829c972d2f6e2b527bbb34af53608f6a7973f4a7dbd1d3bc929bbe8d
+"@types/node@npm:20.8.6":
+  version: 20.8.6
+  resolution: "@types/node@npm:20.8.6"
+  dependencies:
+    undici-types: "npm:~5.25.1"
+  checksum: d0a2bef7e041553540291091d171b6aa7e5e647e4c2d5092e71d5d69bfb272625cd023d5208b91955a78780dac6fdea591962576cfd7a7a94fabbc707fadf7a1
   languageName: node
   linkType: hard
 
@@ -2498,12 +2500,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:17.0.26":
-  version: 17.0.26
-  resolution: "@types/yargs@npm:17.0.26"
+"@types/yargs@npm:17.0.28":
+  version: 17.0.28
+  resolution: "@types/yargs@npm:17.0.28"
   dependencies:
     "@types/yargs-parser": "npm:*"
-  checksum: 34ab6eff6dff086b1044c65d53131e1d14e87c0c6dc44cb6851d74d8a4d1ac4503f7d12d1e1ecff25f8aea62ff7a9d6b04b05870a0324d15bbb226ddfc1d6065
+  checksum: 7dfb1c22c2f6a9fee8ebdeab44b01ca409f2cbb2fea4077a89f4fd49e7706a7fc695cfdb52fd34929ccacbdd100add32c7bca9fbb0c47c6ed9a4c3215901c08c
   languageName: node
   linkType: hard
 
@@ -6011,9 +6013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.161":
-  version: 0.0.161
-  resolution: "langchain@npm:0.0.161"
+"langchain@npm:0.0.167":
+  version: 0.0.167
+  resolution: "langchain@npm:0.0.167"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6053,7 +6055,9 @@ __metadata:
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
     "@getzep/zep-js": ^0.7.0
-    "@gomomento/sdk": ^1.23.0
+    "@gomomento/sdk": ^1.41.2
+    "@gomomento/sdk-core": ^1.41.2
+    "@gomomento/sdk-web": ^1.41.2
     "@google-ai/generativelanguage": ^0.2.1
     "@google-cloud/storage": ^6.10.1
     "@huggingface/inference": ^1.5.1
@@ -6074,6 +6078,7 @@ __metadata:
     "@tensorflow/tfjs-converter": "*"
     "@tensorflow/tfjs-core": "*"
     "@upstash/redis": ^1.20.6
+    "@vercel/kv": ^0.2.3
     "@vercel/postgres": ^0.5.0
     "@writerai/writer-sdk": ^0.40.2
     "@xata.io/client": ^0.25.1
@@ -6081,6 +6086,7 @@ __metadata:
     "@zilliz/milvus2-sdk-node": ">=2.2.7"
     apify-client: ^2.7.1
     axios: "*"
+    cassandra-driver: ^4.6.4
     cheerio: ^1.0.0-rc.12
     chromadb: "*"
     cohere-ai: ">=6.0.0"
@@ -6097,6 +6103,7 @@ __metadata:
     ioredis: ^5.3.2
     jsdom: "*"
     llmonitor: "*"
+    lodash: ^4.17.21
     mammoth: "*"
     mongodb: ^5.2.0
     mysql2: ^3.3.3
@@ -6109,6 +6116,7 @@ __metadata:
     pg-copy-streams: ^6.0.5
     pickleparser: ^0.1.0
     playwright: ^1.32.1
+    portkey-ai: ^0.1.11
     puppeteer: ^19.7.2
     redis: ^4.6.4
     replicate: ^0.18.0
@@ -6156,6 +6164,10 @@ __metadata:
       optional: true
     "@gomomento/sdk":
       optional: true
+    "@gomomento/sdk-core":
+      optional: true
+    "@gomomento/sdk-web":
+      optional: true
     "@google-ai/generativelanguage":
       optional: true
     "@google-cloud/storage":
@@ -6196,6 +6208,8 @@ __metadata:
       optional: true
     "@upstash/redis":
       optional: true
+    "@vercel/kv":
+      optional: true
     "@vercel/postgres":
       optional: true
     "@writerai/writer-sdk":
@@ -6209,6 +6223,8 @@ __metadata:
     apify-client:
       optional: true
     axios:
+      optional: true
+    cassandra-driver:
       optional: true
     cheerio:
       optional: true
@@ -6242,6 +6258,8 @@ __metadata:
       optional: true
     llmonitor:
       optional: true
+    lodash:
+      optional: true
     mammoth:
       optional: true
     mongodb:
@@ -6265,6 +6283,8 @@ __metadata:
     pickleparser:
       optional: true
     playwright:
+      optional: true
+    portkey-ai:
       optional: true
     puppeteer:
       optional: true
@@ -6294,7 +6314,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 7a3e6d16b8220f1cb078a4212b52638c54019116a8280ea83b0bf6de54b33a274de31d24ecb30d6adbc22be4bd00559851c6d2d3d2062b024dafd87b25857db0
+  checksum: 182c0f97436ef9898d0fb8e8d6f8256315dd0ca57a8bcba2b7e83e3789de06f00fce6e0a726d3658d1ef8e74417d1422748b5dca459c2d481d467f7b5ae89bd0
   languageName: node
   linkType: hard
 
@@ -6529,9 +6549,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "llmlint@workspace:."
   dependencies:
-    "@types/eslint": "npm:8.44.3"
-    "@types/node": "npm:20.8.2"
-    "@types/yargs": "npm:17.0.26"
+    "@types/eslint": "npm:8.44.4"
+    "@types/node": "npm:20.8.6"
+    "@types/yargs": "npm:17.0.28"
     "@typescript-eslint/eslint-plugin": "npm:6.7.5"
     "@typescript-eslint/parser": "npm:6.7.5"
     "@willbooster/eslint-config-ts": "npm:10.5.0"
@@ -6546,7 +6566,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.161"
+    langchain: "npm:0.0.167"
     lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
@@ -9570,6 +9590,13 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     which-boxed-primitive: "npm:^1.0.2"
   checksum: 81ca2e81134167cc8f75fa79fbcc8a94379d6c61de67090986a2273850989dd3bae8440c163121b77434b68263e34787a675cbdcb34bb2f764c6b9c843a11b66
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.25.1":
+  version: 5.25.3
+  resolution: "undici-types@npm:5.25.3"
+  checksum: 60a47c6db451c00d27186d86a41fbd9677fa1f6d1a5350bff342c3985bd79fc3f5a638ebf56bbce21df46c701a687db43b3fbd588e1726e58047cea14d182fef
   languageName: node
   linkType: hard
 
