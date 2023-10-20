@@ -2390,13 +2390,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.44.4":
-  version: 8.44.4
-  resolution: "@types/eslint@npm:8.44.4"
+"@types/eslint@npm:8.44.6":
+  version: 8.44.6
+  resolution: "@types/eslint@npm:8.44.6"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: dd554ee39dbc3558e04f31873d2c00d8949869b5ec2325315ae2d04acb124d91e2b434309362e55d6bc76bd9df30a927ba4ebf4b1819d8549ffadc6cf87d4240
+  checksum: fc449107eb186bdc5d30149bbcb4e673af8530afdeacca3b89f14deefcbfc67463157d6a81b42cd9df92ddeafda5351853d13310ff7ac6ab0d9769ac7cc0cc3a
   languageName: node
   linkType: hard
 
@@ -2431,12 +2431,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.8.6":
+"@types/node@npm:*":
   version: 20.8.6
   resolution: "@types/node@npm:20.8.6"
   dependencies:
     undici-types: "npm:~5.25.1"
   checksum: d0a2bef7e041553540291091d171b6aa7e5e647e4c2d5092e71d5d69bfb272625cd023d5208b91955a78780dac6fdea591962576cfd7a7a94fabbc707fadf7a1
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.8.7":
+  version: 20.8.7
+  resolution: "@types/node@npm:20.8.7"
+  dependencies:
+    undici-types: "npm:~5.25.1"
+  checksum: e82b87e7f3f4c12acc5803db21f9144d5e87c20841db9ae98746958e038064700ab04294d08a3714a3df8bd710a974998e2e423443a5d031840cbba17fa126a7
   languageName: node
   linkType: hard
 
@@ -2510,12 +2519,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:17.0.28":
-  version: 17.0.28
-  resolution: "@types/yargs@npm:17.0.28"
+"@types/yargs@npm:17.0.29":
+  version: 17.0.29
+  resolution: "@types/yargs@npm:17.0.29"
   dependencies:
     "@types/yargs-parser": "npm:*"
-  checksum: 7dfb1c22c2f6a9fee8ebdeab44b01ca409f2cbb2fea4077a89f4fd49e7706a7fc695cfdb52fd34929ccacbdd100add32c7bca9fbb0c47c6ed9a4c3215901c08c
+  checksum: d8c965c101f7ee3e2f301c02a83dfd5680e4d999d3503c788c13f336868f03ee1498f019552e7d357635a1a36912cbe6751a563e9c339075d30cd131dc361c98
   languageName: node
   linkType: hard
 
@@ -5997,9 +6006,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.167":
-  version: 0.0.167
-  resolution: "langchain@npm:0.0.167"
+"langchain@npm:0.0.169":
+  version: 0.0.169
+  resolution: "langchain@npm:0.0.169"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6038,7 +6047,7 @@ __metadata:
     "@cloudflare/ai": ^1.0.12
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
-    "@getzep/zep-js": ^0.7.0
+    "@getzep/zep-js": ^0.8.0
     "@gomomento/sdk": ^1.41.2
     "@gomomento/sdk-core": ^1.41.2
     "@gomomento/sdk-web": ^1.41.2
@@ -6073,10 +6082,13 @@ __metadata:
     cassandra-driver: ^4.6.4
     cheerio: ^1.0.0-rc.12
     chromadb: "*"
+    closevector-common: 0.1.0-alpha.1
+    closevector-node: 0.1.0-alpha.10
+    closevector-web: 0.1.0-alpha.16
     cohere-ai: ">=6.0.0"
     d3-dsv: ^2.0.0
     epub2: ^3.0.1
-    faiss-node: ^0.3.0
+    faiss-node: ^0.5.1
     fast-xml-parser: ^4.2.7
     firebase-admin: ^11.9.0
     google-auth-library: ^8.9.0
@@ -6086,7 +6098,7 @@ __metadata:
     ignore: ^5.2.0
     ioredis: ^5.3.2
     jsdom: "*"
-    llmonitor: "*"
+    llmonitor: ^0.5.8
     lodash: ^4.17.21
     mammoth: "*"
     mongodb: ^5.2.0
@@ -6098,7 +6110,7 @@ __metadata:
     peggy: ^3.0.2
     pg: ^8.11.0
     pg-copy-streams: ^6.0.5
-    pickleparser: ^0.1.0
+    pickleparser: ^0.2.1
     playwright: ^1.32.1
     portkey-ai: ^0.1.11
     puppeteer: ^19.7.2
@@ -6214,6 +6226,12 @@ __metadata:
       optional: true
     chromadb:
       optional: true
+    closevector-common:
+      optional: true
+    closevector-node:
+      optional: true
+    closevector-web:
+      optional: true
     cohere-ai:
       optional: true
     d3-dsv:
@@ -6298,7 +6316,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 182c0f97436ef9898d0fb8e8d6f8256315dd0ca57a8bcba2b7e83e3789de06f00fce6e0a726d3658d1ef8e74417d1422748b5dca459c2d481d467f7b5ae89bd0
+  checksum: 21e942641ab37982d9aacbfc9f7f6572bb4f4139dcdc760a5d7b89193bdd937b65fb904cf2fa9add20e06142948596ed0bf6e1ca0cb89333c9bc5b3da0af68bb
   languageName: node
   linkType: hard
 
@@ -6528,9 +6546,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "llmlint@workspace:."
   dependencies:
-    "@types/eslint": "npm:8.44.4"
-    "@types/node": "npm:20.8.6"
-    "@types/yargs": "npm:17.0.28"
+    "@types/eslint": "npm:8.44.6"
+    "@types/node": "npm:20.8.7"
+    "@types/yargs": "npm:17.0.29"
     "@typescript-eslint/eslint-plugin": "npm:6.8.0"
     "@typescript-eslint/parser": "npm:6.8.0"
     "@willbooster/eslint-config-ts": "npm:10.5.0"
@@ -6545,7 +6563,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.167"
+    langchain: "npm:0.0.169"
     lint-staged: "npm:15.0.2"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
