@@ -2432,12 +2432,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.8.7":
+"@types/node@npm:*":
   version: 20.8.7
   resolution: "@types/node@npm:20.8.7"
   dependencies:
     undici-types: "npm:~5.25.1"
   checksum: e82b87e7f3f4c12acc5803db21f9144d5e87c20841db9ae98746958e038064700ab04294d08a3714a3df8bd710a974998e2e423443a5d031840cbba17fa126a7
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.8.9":
+  version: 20.8.9
+  resolution: "@types/node@npm:20.8.9"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 6fb5604ac087c8be9aeb9ee1413fae2e691c603c9a691bd722e113597b883f21e8380a44d114ab894b435a491bfc939c8478cd57bcf890c585b961343b124964
   languageName: node
   linkType: hard
 
@@ -6009,9 +6018,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.169":
-  version: 0.0.169
-  resolution: "langchain@npm:0.0.169"
+"langchain@npm:0.0.174":
+  version: 0.0.174
+  resolution: "langchain@npm:0.0.174"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.6.2"
     ansi-styles: "npm:^5.0.0"
@@ -6051,9 +6060,9 @@ __metadata:
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
     "@getzep/zep-js": ^0.8.0
-    "@gomomento/sdk": ^1.41.2
-    "@gomomento/sdk-core": ^1.41.2
-    "@gomomento/sdk-web": ^1.41.2
+    "@gomomento/sdk": ^1.44.1
+    "@gomomento/sdk-core": ^1.44.1
+    "@gomomento/sdk-web": ^1.44.1
     "@google-ai/generativelanguage": ^0.2.1
     "@google-cloud/storage": ^6.10.1
     "@huggingface/inference": ^1.5.1
@@ -6081,8 +6090,9 @@ __metadata:
     "@xenova/transformers": ^2.5.4
     "@zilliz/milvus2-sdk-node": ">=2.2.7"
     apify-client: ^2.7.1
+    assemblyai: ^2.0.2
     axios: "*"
-    cassandra-driver: ^4.6.4
+    cassandra-driver: ^4.7.2
     cheerio: ^1.0.0-rc.12
     chromadb: "*"
     closevector-common: 0.1.0-alpha.1
@@ -6221,6 +6231,8 @@ __metadata:
       optional: true
     apify-client:
       optional: true
+    assemblyai:
+      optional: true
     axios:
       optional: true
     cassandra-driver:
@@ -6319,7 +6331,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 21e942641ab37982d9aacbfc9f7f6572bb4f4139dcdc760a5d7b89193bdd937b65fb904cf2fa9add20e06142948596ed0bf6e1ca0cb89333c9bc5b3da0af68bb
+  checksum: 68e40c6a7c82fa03e84b2a8cca88ed1547d3bb57b6cbc9c4bcd61beddbe833cab53c694ef12555580d5b9e3cf4ce26e470f8fe1b6c6cea4fa6bf47ab892eb6f9
   languageName: node
   linkType: hard
 
@@ -6550,7 +6562,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:8.44.6"
-    "@types/node": "npm:20.8.7"
+    "@types/node": "npm:20.8.9"
     "@types/yargs": "npm:17.0.29"
     "@typescript-eslint/eslint-plugin": "npm:6.9.0"
     "@typescript-eslint/parser": "npm:6.9.0"
@@ -6566,7 +6578,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.169"
+    langchain: "npm:0.0.174"
     lint-staged: "npm:15.0.2"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
@@ -9612,6 +9624,13 @@ __metadata:
   version: 5.25.3
   resolution: "undici-types@npm:5.25.3"
   checksum: 60a47c6db451c00d27186d86a41fbd9677fa1f6d1a5350bff342c3985bd79fc3f5a638ebf56bbce21df46c701a687db43b3fbd588e1726e58047cea14d182fef
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: bb673d7876c2d411b6eb6c560e0c571eef4a01c1c19925175d16e3a30c4c428181fb8d7ae802a261f283e4166a0ac435e2f505743aa9e45d893f9a3df017b501
   languageName: node
   linkType: hard
 
