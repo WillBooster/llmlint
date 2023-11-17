@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@anthropic-ai/sdk@npm:^0.6.2":
-  version: 0.6.8
-  resolution: "@anthropic-ai/sdk@npm:0.6.8"
+"@anthropic-ai/sdk@npm:^0.9.1":
+  version: 0.9.1
+  resolution: "@anthropic-ai/sdk@npm:0.9.1"
   dependencies:
     "@types/node": "npm:^18.11.18"
     "@types/node-fetch": "npm:^2.6.4"
@@ -35,7 +35,7 @@ __metadata:
     formdata-node: "npm:^4.3.2"
     node-fetch: "npm:^2.6.7"
     web-streams-polyfill: "npm:^3.2.1"
-  checksum: 74f07a6fe27bf9b851b5a813bcfc22ca6fcf38fe028186b80400484f37b74ffca36e657c6c089dd335a960eebd6a1c7a0b86230817b2da795612011ccc133903
+  checksum: de00ec551a5731a30254e9a3a3ed76f05c0865da6cddf32d4010659f72ca2d25985dff7173af850f92ede1e3695e00105f9689aeb875f0e82dc93f1597be0d05
   languageName: node
   linkType: hard
 
@@ -2443,12 +2443,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.9.0":
+"@types/node@npm:*":
   version: 20.9.0
   resolution: "@types/node@npm:20.9.0"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 755d07de735eafda4e20af75ad9d03bdbfddef327d790e9a896142eac7493db5d8501591376e1c8227aa12eeb88e522bc727c6024504842ed40e539e8a466db9
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.9.1":
+  version: 20.9.1
+  resolution: "@types/node@npm:20.9.1"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 0cb52c0840fe9a2e8f988564da6823bb3141e34fef8cb7264762c851c0dac5d9ef4859db422dfa41cd1a864ad126a9bd3b588d0285bc9af6de814de3280da9b3
   languageName: node
   linkType: hard
 
@@ -5324,6 +5333,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"import-from-esm@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "import-from-esm@npm:1.3.1"
+  dependencies:
+    debug: "npm:^4.3.4"
+    import-meta-resolve: "npm:^4.0.0"
+  checksum: 24a9ddae835a9b1df50e45715705c9ebe10108b221f8db4a601fdccc074bba301e308b18f684cd551dedf2128d9f95f196ab7bd362c9426b01528f95b22d0a04
+  languageName: node
+  linkType: hard
+
 "import-meta-resolve@npm:^4.0.0":
   version: 4.0.0
   resolution: "import-meta-resolve@npm:4.0.0"
@@ -5964,11 +5983,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.185":
-  version: 0.0.185
-  resolution: "langchain@npm:0.0.185"
+"langchain@npm:0.0.192":
+  version: 0.0.192
+  resolution: "langchain@npm:0.0.192"
   dependencies:
-    "@anthropic-ai/sdk": "npm:^0.6.2"
+    "@anthropic-ai/sdk": "npm:^0.9.1"
     ansi-styles: "npm:^5.0.0"
     binary-extensions: "npm:^2.2.0"
     camelcase: "npm:6"
@@ -5981,7 +6000,7 @@ __metadata:
     langchainhub: "npm:~0.0.6"
     langsmith: "npm:~0.0.48"
     ml-distance: "npm:^4.0.0"
-    openai: "npm:^4.17.0"
+    openai: "npm:^4.19.0"
     openapi-types: "npm:^12.1.3"
     p-queue: "npm:^6.6.2"
     p-retry: "npm:4"
@@ -6018,6 +6037,7 @@ __metadata:
     "@planetscale/database": ^1.8.0
     "@qdrant/js-client-rest": ^1.2.0
     "@raycast/api": ^1.55.2
+    "@rockset/client": ^0.9.1
     "@smithy/eventstream-codec": ^2.0.5
     "@smithy/protocol-http": ^3.0.6
     "@smithy/signature-v4": ^2.0.10
@@ -6057,7 +6077,7 @@ __metadata:
     ignore: ^5.2.0
     ioredis: ^5.3.2
     jsdom: "*"
-    llmonitor: ^0.5.8
+    llmonitor: ^0.5.9
     lodash: ^4.17.21
     mammoth: "*"
     mongodb: ^5.2.0
@@ -6143,6 +6163,8 @@ __metadata:
     "@qdrant/js-client-rest":
       optional: true
     "@raycast/api":
+      optional: true
+    "@rockset/client":
       optional: true
     "@smithy/eventstream-codec":
       optional: true
@@ -6282,7 +6304,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: a2dc9aa87a8882e2083cb007eb6b70345e29646144d5af8137951d5379e01f3cdb5d4461172801c746d521f8bc6c82640334febd0b32a8e886f2ad5b7153d98e
+  checksum: 28ff20c6212a7e685a2a316cb22ee6966f4a4d335aaa6b6ca60e67d803ee276c02f7e4d5ef6b6113bf43ead39293e4450ba0b37fc6619d2da161806d5ad2e4c4
   languageName: node
   linkType: hard
 
@@ -6506,7 +6528,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:8.44.7"
-    "@types/node": "npm:20.9.0"
+    "@types/node": "npm:20.9.1"
     "@types/yargs": "npm:17.0.31"
     "@typescript-eslint/eslint-plugin": "npm:6.11.0"
     "@typescript-eslint/parser": "npm:6.11.0"
@@ -6522,12 +6544,12 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:49.0.0"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.185"
+    langchain: "npm:0.0.192"
     lint-staged: "npm:15.1.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.1.0"
-    semantic-release: "npm:22.0.7"
+    semantic-release: "npm:22.0.8"
     sort-package-json: "npm:2.6.0"
     typescript: "npm:5.2.2"
     yargs: "npm:17.7.2"
@@ -7471,9 +7493,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openai@npm:^4.17.0":
-  version: 4.17.4
-  resolution: "openai@npm:4.17.4"
+"openai@npm:^4.19.0":
+  version: 4.19.0
+  resolution: "openai@npm:4.19.0"
   dependencies:
     "@types/node": "npm:^18.11.18"
     "@types/node-fetch": "npm:^2.6.4"
@@ -7486,7 +7508,7 @@ __metadata:
     web-streams-polyfill: "npm:^3.2.1"
   bin:
     openai: bin/cli
-  checksum: 9eea98a8d1470d52198a4e54c5d2ef1062c86d4e6609865ce3f66dafcebd1055c08783bae19279a91352cd23cb4a067d0fba0ed8f6f72e1e3f8f0091b35eb3be
+  checksum: 2d82612cf0cb7779fda82c89018fd27e5d2aaf909ce1fa23f9aa41a9a56924823335f090a3e1c3baa2e8c5a8b6094b855df297c054b24187d90dad0c86d3b0ae
   languageName: node
   linkType: hard
 
@@ -8495,9 +8517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.7":
-  version: 22.0.7
-  resolution: "semantic-release@npm:22.0.7"
+"semantic-release@npm:22.0.8":
+  version: 22.0.8
+  resolution: "semantic-release@npm:22.0.8"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^11.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -8515,6 +8537,7 @@ __metadata:
     git-log-parser: "npm:^1.2.0"
     hook-std: "npm:^3.0.0"
     hosted-git-info: "npm:^7.0.0"
+    import-from-esm: "npm:^1.3.1"
     lodash-es: "npm:^4.17.21"
     marked: "npm:^9.0.0"
     marked-terminal: "npm:^6.0.0"
@@ -8529,7 +8552,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: e85d55be57fa36401fcbaa4edde2070d54f5d258b00c4a66a78592f08ab893b0a0c94dc880d5a52851caa56863950adf67a21f6447cbfd6db59ffdac1ee00d4f
+  checksum: d89e82317ed5131bb90ec4289f5108ca0e8f17a130b54a10bff4b1463e598326b0b48d3f6a37f0c30dcd21b8676163acd8e3aac63463450b48bc152f23f51e17
   languageName: node
   linkType: hard
 
