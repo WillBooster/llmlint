@@ -2452,12 +2452,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.9.1":
-  version: 20.9.1
-  resolution: "@types/node@npm:20.9.1"
+"@types/node@npm:20.10.0":
+  version: 20.10.0
+  resolution: "@types/node@npm:20.10.0"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 0cb52c0840fe9a2e8f988564da6823bb3141e34fef8cb7264762c851c0dac5d9ef4859db422dfa41cd1a864ad126a9bd3b588d0285bc9af6de814de3280da9b3
+  checksum: f379e57d9d28cb5f3d8eab943de0c54a0ca2f95ee356e1fe2a1a4fa718b740103ae522c50ce107cffd52c3642ef3244cfc55bf5369081dd6c48369c8587b21ae
   languageName: node
   linkType: hard
 
@@ -2533,12 +2533,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:17.0.31":
-  version: 17.0.31
-  resolution: "@types/yargs@npm:17.0.31"
+"@types/yargs@npm:17.0.32":
+  version: 17.0.32
+  resolution: "@types/yargs@npm:17.0.32"
   dependencies:
     "@types/yargs-parser": "npm:*"
-  checksum: 1e04df99bd0ad8ac8b3748b6ac0e99a9a4efe20b9cd8eab69ac9503fe87ab9bec312ad56982e969cdb0e2c0679431434ad571f6934049adb15fa35b22810c867
+  checksum: 2095e8aad8a4e66b86147415364266b8d607a3b95b4239623423efd7e29df93ba81bb862784a6e08664f645cc1981b25fd598f532019174cd3e5e1e689e1cccf
   languageName: node
   linkType: hard
 
@@ -3881,7 +3881,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"decamelize@npm:^1.2.0":
+"decamelize@npm:1.2.0":
   version: 1.2.0
   resolution: "decamelize@npm:1.2.0"
   checksum: 85c39fe8fbf0482d4a1e224ef0119db5c1897f8503bcef8b826adff7a1b11414972f6fef2d7dec2ee0b4be3863cf64ac1439137ae9e6af23a3d8dcbe26a5b4b2
@@ -5981,31 +5981,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.192":
-  version: 0.0.192
-  resolution: "langchain@npm:0.0.192"
+"langchain-core@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "langchain-core@npm:0.0.1"
+  dependencies:
+    ansi-styles: "npm:^5.0.0"
+    camelcase: "npm:6"
+    decamelize: "npm:1.2.0"
+    js-tiktoken: "npm:^1.0.7"
+    langsmith: "npm:^0.0.48"
+    p-queue: "npm:^6.6.2"
+    p-retry: "npm:4"
+    uuid: "npm:^9.0.0"
+  checksum: 55ff5b67163ed2a8011bbb39790e69147d71d7d73547d5e9d9481a3cb35206ea7680488e3bb026f95d913d67c0a53b8caaf62653dbef0f7fa416733d6c98cdfd
+  languageName: node
+  linkType: hard
+
+"langchain@npm:0.0.196":
+  version: 0.0.196
+  resolution: "langchain@npm:0.0.196"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
-    ansi-styles: "npm:^5.0.0"
     binary-extensions: "npm:^2.2.0"
-    camelcase: "npm:6"
-    decamelize: "npm:^1.2.0"
     expr-eval: "npm:^2.0.2"
     flat: "npm:^5.0.2"
     js-tiktoken: "npm:^1.0.7"
     js-yaml: "npm:^4.1.0"
     jsonpointer: "npm:^5.0.1"
+    langchain-core: "npm:^0.0.1"
     langchainhub: "npm:~0.0.6"
     langsmith: "npm:~0.0.48"
     ml-distance: "npm:^4.0.0"
     openai: "npm:^4.19.0"
     openapi-types: "npm:^12.1.3"
-    p-queue: "npm:^6.6.2"
     p-retry: "npm:4"
     uuid: "npm:^9.0.0"
     yaml: "npm:^2.2.1"
     zod: "npm:^3.22.3"
-    zod-to-json-schema: "npm:^3.20.4"
+    zod-to-json-schema: "npm:3.20.3"
   peerDependencies:
     "@aws-crypto/sha256-js": ^5.0.0
     "@aws-sdk/client-bedrock-runtime": ^3.422.0
@@ -6302,7 +6315,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 28ff20c6212a7e685a2a316cb22ee6966f4a4d335aaa6b6ca60e67d803ee276c02f7e4d5ef6b6113bf43ead39293e4450ba0b37fc6619d2da161806d5ad2e4c4
+  checksum: 02560e4e5057cb0dc4b9ce3ccb45ce50582491bd15005297de1992eca4562677187c4967dc4a0c6d2208d8f85634e45b62394a876652df2892f3d77712ce480f
   languageName: node
   linkType: hard
 
@@ -6313,7 +6326,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langsmith@npm:~0.0.48":
+"langsmith@npm:^0.0.48, langsmith@npm:~0.0.48":
   version: 0.0.48
   resolution: "langsmith@npm:0.0.48"
   dependencies:
@@ -6526,8 +6539,8 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:8.44.7"
-    "@types/node": "npm:20.9.1"
-    "@types/yargs": "npm:17.0.31"
+    "@types/node": "npm:20.10.0"
+    "@types/yargs": "npm:17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:6.12.0"
     "@typescript-eslint/parser": "npm:6.12.0"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
@@ -6542,7 +6555,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:49.0.0"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.192"
+    langchain: "npm:0.0.196"
     lint-staged: "npm:15.1.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
@@ -9862,12 +9875,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod-to-json-schema@npm:^3.20.4":
-  version: 3.22.0
-  resolution: "zod-to-json-schema@npm:3.22.0"
+"zod-to-json-schema@npm:3.20.3":
+  version: 3.20.3
+  resolution: "zod-to-json-schema@npm:3.20.3"
   peerDependencies:
-    zod: ^3.22.4
-  checksum: 541faf78b798b06f4855ae1961e67760191fccd5c955c441d9b9dcd2fbd7898b8a251e0fc7c3a4dde1f69636976a4e9378eda75507d21fe2eeb580e135595c05
+    zod: ^3.20.0
+  checksum: 02e343df79936323482fd153c4e4ab68c0ced02fc2fdd8711cb6b21d158179e44202aa490c66bcd0bece99080fcd4ca5993d08a7bf2dcf4dcff2502239c5e6a0
   languageName: node
   linkType: hard
 
