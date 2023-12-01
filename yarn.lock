@@ -1689,6 +1689,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@langchain/core@npm:~0.0.3":
+  version: 0.0.3
+  resolution: "@langchain/core@npm:0.0.3"
+  dependencies:
+    ansi-styles: "npm:^5.0.0"
+    camelcase: "npm:6"
+    decamelize: "npm:1.2.0"
+    js-tiktoken: "npm:^1.0.7"
+    langsmith: "npm:^0.0.48"
+    p-queue: "npm:^6.6.2"
+    p-retry: "npm:4"
+    uuid: "npm:^9.0.0"
+    zod: "npm:^3.22.3"
+  checksum: 658cb3bf80044b3e581fda235599c9a2fee68feed94fa9a5aa291414de1cdd94e46a725828bb6e69eba145ae2d0b03ef72c176d1f9ede8573b9072daf0efb625
+  languageName: node
+  linkType: hard
+
 "@mdn/browser-compat-data@npm:^5.3.7":
   version: 5.4.1
   resolution: "@mdn/browser-compat-data@npm:5.4.1"
@@ -2400,13 +2417,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.44.7":
-  version: 8.44.7
-  resolution: "@types/eslint@npm:8.44.7"
+"@types/eslint@npm:8.44.8":
+  version: 8.44.8
+  resolution: "@types/eslint@npm:8.44.8"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 447b55ccff47668fc63466728e7e598ae16a03de8d489350e855b6020ad16f58a703e75b875376dd6cd5fcab630311a805fa7f934476637ea35819f01c9db3ca
+  checksum: 610966753add984f6ac9f00eeb766691e141e66a7e20b724a45ad077f60e8cd8fd7874b7e655e93537e54873cc5711cd6f57728474e08b478407cd942f098263
   languageName: node
   linkType: hard
 
@@ -2441,12 +2458,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.10.0":
+"@types/node@npm:*":
   version: 20.10.0
   resolution: "@types/node@npm:20.10.0"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: f379e57d9d28cb5f3d8eab943de0c54a0ca2f95ee356e1fe2a1a4fa718b740103ae522c50ce107cffd52c3642ef3244cfc55bf5369081dd6c48369c8587b21ae
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.10.1":
+  version: 20.10.1
+  resolution: "@types/node@npm:20.10.1"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: c1b4b5a33f57bd39a8a0d074f27e3e370fccc6cda6a1c46caa48cc4c1687677cfdbffd9dc93fc803c6d355696dd9c73cd6f6507c749f61f83beb7326aec077d2
   languageName: node
   linkType: hard
 
@@ -5963,34 +5989,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain-core@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "langchain-core@npm:0.0.1"
-  dependencies:
-    ansi-styles: "npm:^5.0.0"
-    camelcase: "npm:6"
-    decamelize: "npm:1.2.0"
-    js-tiktoken: "npm:^1.0.7"
-    langsmith: "npm:^0.0.48"
-    p-queue: "npm:^6.6.2"
-    p-retry: "npm:4"
-    uuid: "npm:^9.0.0"
-  checksum: 55ff5b67163ed2a8011bbb39790e69147d71d7d73547d5e9d9481a3cb35206ea7680488e3bb026f95d913d67c0a53b8caaf62653dbef0f7fa416733d6c98cdfd
-  languageName: node
-  linkType: hard
-
-"langchain@npm:0.0.196":
-  version: 0.0.196
-  resolution: "langchain@npm:0.0.196"
+"langchain@npm:0.0.199":
+  version: 0.0.199
+  resolution: "langchain@npm:0.0.199"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
+    "@langchain/core": "npm:~0.0.3"
     binary-extensions: "npm:^2.2.0"
     expr-eval: "npm:^2.0.2"
     flat: "npm:^5.0.2"
     js-tiktoken: "npm:^1.0.7"
     js-yaml: "npm:^4.1.0"
     jsonpointer: "npm:^5.0.1"
-    langchain-core: "npm:^0.0.1"
     langchainhub: "npm:~0.0.6"
     langsmith: "npm:~0.0.48"
     ml-distance: "npm:^4.0.0"
@@ -6012,16 +6022,17 @@ __metadata:
     "@aws-sdk/client-sfn": ^3.310.0
     "@aws-sdk/credential-provider-node": ^3.388.0
     "@azure/storage-blob": ^12.15.0
-    "@clickhouse/client": ^0.0.14
+    "@clickhouse/client": ^0.2.5
     "@cloudflare/ai": ^1.0.12
     "@elastic/elasticsearch": ^8.4.0
     "@getmetal/metal-sdk": "*"
     "@getzep/zep-js": ^0.9.0
-    "@gomomento/sdk": ^1.47.1
-    "@gomomento/sdk-core": ^1.47.1
-    "@gomomento/sdk-web": ^1.47.1
+    "@gomomento/sdk": ^1.51.1
+    "@gomomento/sdk-core": ^1.51.1
+    "@gomomento/sdk-web": ^1.51.1
     "@google-ai/generativelanguage": ^0.2.1
     "@google-cloud/storage": ^6.10.1
+    "@gradientai/nodejs-sdk": ^1.2.0
     "@huggingface/inference": ^2.6.4
     "@mozilla/readability": "*"
     "@notionhq/client": ^2.2.10
@@ -6078,6 +6089,7 @@ __metadata:
     neo4j-driver: "*"
     node-llama-cpp: "*"
     notion-to-md: ^3.1.0
+    officeparser: ^4.0.4
     pdf-parse: 1.1.1
     peggy: ^3.0.2
     pg: ^8.11.0
@@ -6086,6 +6098,7 @@ __metadata:
     playwright: ^1.32.1
     portkey-ai: ^0.1.11
     puppeteer: ^19.7.2
+    pyodide: ^0.24.1
     redis: ^4.6.4
     replicate: ^0.18.0
     sonix-speech-recognition: ^2.1.1
@@ -6140,6 +6153,8 @@ __metadata:
     "@google-ai/generativelanguage":
       optional: true
     "@google-cloud/storage":
+      optional: true
+    "@gradientai/nodejs-sdk":
       optional: true
     "@huggingface/inference":
       optional: true
@@ -6253,6 +6268,8 @@ __metadata:
       optional: true
     notion-to-md:
       optional: true
+    officeparser:
+      optional: true
     pdf-parse:
       optional: true
     peggy:
@@ -6268,6 +6285,8 @@ __metadata:
     portkey-ai:
       optional: true
     puppeteer:
+      optional: true
+    pyodide:
       optional: true
     redis:
       optional: true
@@ -6297,7 +6316,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 02560e4e5057cb0dc4b9ce3ccb45ce50582491bd15005297de1992eca4562677187c4967dc4a0c6d2208d8f85634e45b62394a876652df2892f3d77712ce480f
+  checksum: b2b458128caaf619b0ae66c214ff99b0a0dcc26bdba1c7dfa0b29f7c8027c43b05e0a876337480156a3e6a034fe9a576c39ec79d1314a8f0922317b7e7bcee26
   languageName: node
   linkType: hard
 
@@ -6520,8 +6539,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "llmlint@workspace:."
   dependencies:
-    "@types/eslint": "npm:8.44.7"
-    "@types/node": "npm:20.10.0"
+    "@types/eslint": "npm:8.44.8"
+    "@types/node": "npm:20.10.1"
     "@types/yargs": "npm:17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:6.13.1"
     "@typescript-eslint/parser": "npm:6.13.1"
@@ -6537,7 +6556,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:49.0.0"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.196"
+    langchain: "npm:0.0.199"
     lint-staged: "npm:15.1.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
