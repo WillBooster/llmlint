@@ -1689,20 +1689,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@langchain/core@npm:~0.0.3":
-  version: 0.0.6
-  resolution: "@langchain/core@npm:0.0.6"
+"@langchain/core@npm:~0.0.10":
+  version: 0.0.10
+  resolution: "@langchain/core@npm:0.0.10"
   dependencies:
     ansi-styles: "npm:^5.0.0"
     camelcase: "npm:6"
     decamelize: "npm:1.2.0"
-    js-tiktoken: "npm:^1.0.7"
-    langsmith: "npm:^0.0.48"
+    js-tiktoken: "npm:^1.0.8"
+    langsmith: "npm:~0.0.48"
     p-queue: "npm:^6.6.2"
     p-retry: "npm:4"
     uuid: "npm:^9.0.0"
     zod: "npm:^3.22.3"
-  checksum: 2cce842214f54a45993166b45480f881a8cebe18483a9dab80dea4b4cae2b69d364f85bebb54c9e3b6c338096b3ce96336ecad3657b8945cfeccf5dbc28d4fe5
+  checksum: 1c040157b2ef4d10afa3dfdbf2376130197a6cd50c3574bbce2c05a7a2ce8f80328258ce23159cfae0c4ee342cfda86124651878dc185aaaff9e094000febede
   languageName: node
   linkType: hard
 
@@ -2467,12 +2467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.10.1":
-  version: 20.10.1
-  resolution: "@types/node@npm:20.10.1"
+"@types/node@npm:20.10.4":
+  version: 20.10.4
+  resolution: "@types/node@npm:20.10.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: c1b4b5a33f57bd39a8a0d074f27e3e370fccc6cda6a1c46caa48cc4c1687677cfdbffd9dc93fc803c6d355696dd9c73cd6f6507c749f61f83beb7326aec077d2
+  checksum: 2c8b70cba731eb2ae3ae046daa74903bfcbb0e7b9196da767e5895054f6d252296ae7a04fb1dbbcb53bb004c4c658c05eaea2731bc9e2dd9e08f7e88d672f563
   languageName: node
   linkType: hard
 
@@ -5823,7 +5823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tiktoken@npm:^1.0.7":
+"js-tiktoken@npm:^1.0.7, js-tiktoken@npm:^1.0.8":
   version: 1.0.8
   resolution: "js-tiktoken@npm:1.0.8"
   dependencies:
@@ -6003,12 +6003,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.199":
-  version: 0.0.199
-  resolution: "langchain@npm:0.0.199"
+"langchain@npm:0.0.203":
+  version: 0.0.203
+  resolution: "langchain@npm:0.0.203"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
-    "@langchain/core": "npm:~0.0.3"
+    "@langchain/core": "npm:~0.0.10"
     binary-extensions: "npm:^2.2.0"
     expr-eval: "npm:^2.0.2"
     flat: "npm:^5.0.2"
@@ -6069,7 +6069,7 @@ __metadata:
     "@vercel/kv": ^0.2.3
     "@vercel/postgres": ^0.5.0
     "@writerai/writer-sdk": ^0.40.2
-    "@xata.io/client": ^0.25.1
+    "@xata.io/client": ^0.28.0
     "@xenova/transformers": ^2.5.4
     "@zilliz/milvus2-sdk-node": ">=2.2.7"
     apify-client: ^2.7.1
@@ -6330,7 +6330,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: b2b458128caaf619b0ae66c214ff99b0a0dcc26bdba1c7dfa0b29f7c8027c43b05e0a876337480156a3e6a034fe9a576c39ec79d1314a8f0922317b7e7bcee26
+  checksum: 08b7551e7f4c9c7bcd91772fb1fdc346d86ffc373a07e07bc408b178d8ab56f461630c9e88e24b3bcfba38f8fd56aef9a0e56a32da035fd9a364471ad6780e61
   languageName: node
   linkType: hard
 
@@ -6338,21 +6338,6 @@ __metadata:
   version: 0.0.6
   resolution: "langchainhub@npm:0.0.6"
   checksum: 5857dd25f2ff71fda842c9cc840c0fe0ad55b90a474cf473b21dc416f7703095067c19d5200bb4e07e589591de49f5a8abb3fe0fc591455efda58a0d63909d38
-  languageName: node
-  linkType: hard
-
-"langsmith@npm:^0.0.48":
-  version: 0.0.48
-  resolution: "langsmith@npm:0.0.48"
-  dependencies:
-    "@types/uuid": "npm:^9.0.1"
-    commander: "npm:^10.0.1"
-    p-queue: "npm:^6.6.2"
-    p-retry: "npm:4"
-    uuid: "npm:^9.0.0"
-  bin:
-    langsmith: dist/cli/main.cjs
-  checksum: fbdafe351a5b6e8de952da129002749813f133314e352f4fe4acc18bf0c3251485aee063fa9a1af2c217b2e1c9f8064c034c98d15f3829e68d109752ee399f98
   languageName: node
   linkType: hard
 
@@ -6569,7 +6554,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:8.44.8"
-    "@types/node": "npm:20.10.1"
+    "@types/node": "npm:20.10.4"
     "@types/yargs": "npm:17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:6.13.2"
     "@typescript-eslint/parser": "npm:6.13.2"
@@ -6585,12 +6570,12 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:49.0.0"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.199"
+    langchain: "npm:0.0.203"
     lint-staged: "npm:15.2.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.1.0"
-    semantic-release: "npm:22.0.8"
+    semantic-release: "npm:22.0.10"
     sort-package-json: "npm:2.6.0"
     typescript: "npm:5.3.3"
     yargs: "npm:17.7.2"
@@ -8556,9 +8541,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.8":
-  version: 22.0.8
-  resolution: "semantic-release@npm:22.0.8"
+"semantic-release@npm:22.0.10":
+  version: 22.0.10
+  resolution: "semantic-release@npm:22.0.10"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^11.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -8591,7 +8576,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: d89e82317ed5131bb90ec4289f5108ca0e8f17a130b54a10bff4b1463e598326b0b48d3f6a37f0c30dcd21b8676163acd8e3aac63463450b48bc152f23f51e17
+  checksum: e5e4a158dbd75449be6a50827c11fdb0a5b0103b21d3d2640df5d2572ddee461c3320415842188e04ddc6d34d8ab67f727802431440847e2f98a48bc56bfcd9e
   languageName: node
   linkType: hard
 

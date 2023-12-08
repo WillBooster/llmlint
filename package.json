@@ -27,12 +27,12 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "langchain": "0.0.199",
+    "langchain": "0.0.203",
     "yargs": "17.7.2"
   },
   "devDependencies": {
     "@types/eslint": "8.44.8",
-    "@types/node": "20.10.1",
+    "@types/node": "20.10.4",
     "@types/yargs": "17.0.32",
     "@typescript-eslint/eslint-plugin": "6.13.2",
     "@typescript-eslint/parser": "6.13.2",
@@ -52,7 +52,7 @@
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "3.1.0",
-    "semantic-release": "22.0.8",
+    "semantic-release": "22.0.10",
     "sort-package-json": "2.6.0",
     "typescript": "5.3.3"
   },
