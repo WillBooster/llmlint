@@ -1690,9 +1690,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@langchain/community@npm:~0.0.12":
-  version: 0.0.12
-  resolution: "@langchain/community@npm:0.0.12"
+"@langchain/community@npm:~0.0.13":
+  version: 0.0.14
+  resolution: "@langchain/community@npm:0.0.14"
   dependencies:
     "@langchain/core": "npm:~0.1.5"
     "@langchain/openai": "npm:~0.0.9"
@@ -1761,6 +1761,7 @@ __metadata:
     jsdom: "*"
     llmonitor: ^0.5.9
     lodash: ^4.17.21
+    lunary: ^0.6.11
     mongodb: ^5.2.0
     mysql2: ^3.3.3
     neo4j-driver: "*"
@@ -1900,6 +1901,8 @@ __metadata:
       optional: true
     lodash:
       optional: true
+    lunary:
+      optional: true
     mongodb:
       optional: true
     mysql2:
@@ -1936,7 +1939,7 @@ __metadata:
       optional: true
     ws:
       optional: true
-  checksum: 8c4a9f5b19015f0138332eae840a0483b0d7309b1e50abbd92692eff232550e69e96d3fe5710a44e1dacc4d940bfd147a76876239cbb3643404535602c1045f9
+  checksum: 97c7857b20e3102bbf1810089c023c471f0d36d89c19f10dad0bba2031885951c147670f956880a67429c5bd6bd5bb976461889f893294b9c89882d494f703a2
   languageName: node
   linkType: hard
 
@@ -2682,13 +2685,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.0":
-  version: 8.56.0
-  resolution: "@types/eslint@npm:8.56.0"
+"@types/eslint@npm:8.56.1":
+  version: 8.56.1
+  resolution: "@types/eslint@npm:8.56.1"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: afba97b10d02cb7c7e7658de38f626c65b81be0fe45bc479e058ab14bc089911193811dce681edd656fc6b59c91fd8d0c976972476fc98b5e782b2c3b08aaa6c
+  checksum: a2aa5e2ec16f07944a60b825d6447d66f83369783e31c014ccf582fa92df963aa8d62c447a8fdc4fbfcd7299ad74ed1a753e06e560ce184eab4efceccfa66262
   languageName: node
   linkType: hard
 
@@ -2723,21 +2726,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:20.10.6":
   version: 20.10.6
   resolution: "@types/node@npm:20.10.6"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 6692ccfa8552ef60c4069fda3c8de726c23e8d403cdf788e3c7efa769987e80fbda5f02723dd857f9de7df24a5fa40b3ed4580ec3c5cbac04eba44cf7b2ab1dc
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.10.5":
-  version: 20.10.5
-  resolution: "@types/node@npm:20.10.5"
-  dependencies:
-    undici-types: "npm:~5.26.4"
-  checksum: be30609aae0bfe492097815f166ccc07f465220cb604647fa4e5ec05a1d16c012a41b82b5f11ecfe2485cbb479d4d20384b95b809ca0bcff6d94d5bbafa645bb
   languageName: node
   linkType: hard
 
@@ -6245,12 +6239,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.0.213":
-  version: 0.0.213
-  resolution: "langchain@npm:0.0.213"
+"langchain@npm:0.0.214":
+  version: 0.0.214
+  resolution: "langchain@npm:0.0.214"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
-    "@langchain/community": "npm:~0.0.12"
+    "@langchain/community": "npm:~0.0.13"
     "@langchain/core": "npm:~0.1.5"
     "@langchain/openai": "npm:~0.0.9"
     binary-extensions: "npm:^2.2.0"
@@ -6421,7 +6415,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 10a6bf03c88d753b31cdd5849e20c220aa0205e9b63dba42d93a55d1b4a9e151072fca70400aff91d7505c6ebbdcdb873ff3fab8a606eed8a915cf43cd570555
+  checksum: 4c70acd1d7ad8b999a7fa2b86bba15ebe4de74339cba0028141e03f8d38f08f1ee5369a707a5597044321d36e4bafe72eed95c04ebb410aa7e881e833d87c201
   languageName: node
   linkType: hard
 
@@ -6644,8 +6638,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "llmlint@workspace:."
   dependencies:
-    "@types/eslint": "npm:8.56.0"
-    "@types/node": "npm:20.10.5"
+    "@types/eslint": "npm:8.56.1"
+    "@types/node": "npm:20.10.6"
     "@types/yargs": "npm:17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:6.17.0"
     "@typescript-eslint/parser": "npm:6.17.0"
@@ -6661,7 +6655,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:50.0.1"
     husky: "npm:8.0.3"
-    langchain: "npm:0.0.213"
+    langchain: "npm:0.0.214"
     lint-staged: "npm:15.2.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
