@@ -2834,12 +2834,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.7":
-  version: 20.11.7
-  resolution: "@types/node@npm:20.11.7"
+"@types/node@npm:20.11.16":
+  version: 20.11.16
+  resolution: "@types/node@npm:20.11.16"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/ba4b41542b64f21a881a277189e761c553d00af0b1c02f2d8a47ebe8bc29a00ed21b45adf0bf9af2cf8ea6c92a443853d4f7b690081ceaecc150719cc574e9ea
+  checksum: 10c0/4886b90278e9c877a84efd3edd4667cd990e032d77268d2a798b99ebc1901ea336fa7dfbe9eaf4ad6ad1da9ce2ec31baf300038a3905838692362eb19904ebde
   languageName: node
   linkType: hard
 
@@ -6302,9 +6302,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.1.7":
-  version: 0.1.7
-  resolution: "langchain@npm:0.1.7"
+"langchain@npm:0.1.12":
+  version: 0.1.12
+  resolution: "langchain@npm:0.1.12"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
     "@langchain/community": "npm:~0.0.20"
@@ -6481,7 +6481,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 10c0/946b19553fbe87b673e57819a5c5139b41f4fee7590d3f26e501a78f8ad19c6c3235c4be0158f27c64d229c4715d1716c109a5e5a992def9ac97c47451769e3a
+  checksum: 10c0/efae0f9407d3e65afe2c62461515d233990e15587bffb2c18931f2ce0903ecb844bea8d689aee4a99409b4ea4fd2bc3ab7b3d1404f235f645e0711b29c49df84
   languageName: node
   linkType: hard
 
@@ -6705,7 +6705,7 @@ __metadata:
   resolution: "llmlint@workspace:."
   dependencies:
     "@types/eslint": "npm:8.56.2"
-    "@types/node": "npm:20.11.7"
+    "@types/node": "npm:20.11.16"
     "@types/yargs": "npm:17.0.32"
     "@typescript-eslint/eslint-plugin": "npm:6.20.0"
     "@typescript-eslint/parser": "npm:6.20.0"
@@ -6721,7 +6721,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:50.0.1"
     husky: "npm:9.0.10"
-    langchain: "npm:0.1.7"
+    langchain: "npm:0.1.12"
     lint-staged: "npm:15.2.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
