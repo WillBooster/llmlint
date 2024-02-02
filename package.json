@@ -27,12 +27,12 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "langchain": "0.1.7",
+    "langchain": "0.1.12",
     "yargs": "17.7.2"
   },
   "devDependencies": {
     "@types/eslint": "8.56.2",
-    "@types/node": "20.11.7",
+    "@types/node": "20.11.16",
     "@types/yargs": "17.0.32",
     "@typescript-eslint/eslint-plugin": "6.20.0",
     "@typescript-eslint/parser": "6.20.0",
