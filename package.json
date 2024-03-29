@@ -27,7 +27,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "langchain": "0.1.28",
+    "langchain": "0.1.30",
     "yargs": "17.7.2"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "3.2.5",
-    "semantic-release": "23.0.5",
+    "semantic-release": "23.0.6",
     "sort-package-json": "2.9.0",
     "typescript": "5.4.3"
   },
