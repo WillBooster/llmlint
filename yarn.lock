@@ -2005,6 +2005,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@langchain/core@npm:~0.1, @langchain/core@npm:~0.1.60":
+  version: 0.1.60
+  resolution: "@langchain/core@npm:0.1.60"
+  dependencies:
+    ansi-styles: "npm:^5.0.0"
+    camelcase: "npm:6"
+    decamelize: "npm:1.2.0"
+    js-tiktoken: "npm:^1.0.8"
+    langsmith: "npm:~0.1.7"
+    ml-distance: "npm:^4.0.0"
+    mustache: "npm:^4.2.0"
+    p-queue: "npm:^6.6.2"
+    p-retry: "npm:4"
+    uuid: "npm:^9.0.0"
+    zod: "npm:^3.22.4"
+    zod-to-json-schema: "npm:^3.22.3"
+  checksum: 10c0/80cc1f6895277a24868c892ad318a2a6d5fbcc4d0b9205a006d9d608af565b1dddcfa5b5b7d0ea9163b1486db3554822f05979fdb21c1b6bb249ae59a2357d9b
+  languageName: node
+  linkType: hard
+
 "@langchain/core@npm:~0.1.56":
   version: 0.1.58
   resolution: "@langchain/core@npm:0.1.58"
@@ -2035,6 +2055,16 @@ __metadata:
     zod: "npm:^3.22.4"
     zod-to-json-schema: "npm:^3.22.3"
   checksum: 10c0/324d5a76502afcbf657b712a763743e0fcfa9494a201d3b8a3fc8ca398af53b6cdb9b3da6936909681a69fb4310dceb8add364f64efae8356d7316160e7363c1
+  languageName: node
+  linkType: hard
+
+"@langchain/textsplitters@npm:~0.0.0":
+  version: 0.0.0
+  resolution: "@langchain/textsplitters@npm:0.0.0"
+  dependencies:
+    "@langchain/core": "npm:~0.1"
+    js-tiktoken: "npm:^1.0.11"
+  checksum: 10c0/ca7009b4383abb7bc3799409f3719c4df71414d2201f17ff7b9ea37c323c7802f0c0f91484e38ce740cf08307d290f2493fb944a4bf80720bb1ba0dd9a1537e5
   languageName: node
   linkType: hard
 
@@ -6308,7 +6338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tiktoken@npm:^1.0.7, js-tiktoken@npm:^1.0.8":
+"js-tiktoken@npm:^1.0.11, js-tiktoken@npm:^1.0.7, js-tiktoken@npm:^1.0.8":
   version: 1.0.11
   resolution: "js-tiktoken@npm:1.0.11"
   dependencies:
@@ -6495,14 +6525,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"langchain@npm:0.1.34":
-  version: 0.1.34
-  resolution: "langchain@npm:0.1.34"
+"langchain@npm:0.1.36":
+  version: 0.1.36
+  resolution: "langchain@npm:0.1.36"
   dependencies:
     "@anthropic-ai/sdk": "npm:^0.9.1"
     "@langchain/community": "npm:~0.0.47"
-    "@langchain/core": "npm:~0.1.56"
+    "@langchain/core": "npm:~0.1.60"
     "@langchain/openai": "npm:~0.0.28"
+    "@langchain/textsplitters": "npm:~0.0.0"
     binary-extensions: "npm:^2.2.0"
     js-tiktoken: "npm:^1.0.7"
     js-yaml: "npm:^4.1.0"
@@ -6527,6 +6558,7 @@ __metadata:
     "@gomomento/sdk-web": ^1.51.1
     "@google-ai/generativelanguage": ^0.2.1
     "@google-cloud/storage": ^6.10.1 || ^7.7.0
+    "@mendable/firecrawl-js": ^0.0.13
     "@notionhq/client": ^2.2.10
     "@pinecone-database/pinecone": "*"
     "@supabase/supabase-js": ^2.10.0
@@ -6587,6 +6619,8 @@ __metadata:
     "@google-ai/generativelanguage":
       optional: true
     "@google-cloud/storage":
+      optional: true
+    "@mendable/firecrawl-js":
       optional: true
     "@notionhq/client":
       optional: true
@@ -6670,7 +6704,7 @@ __metadata:
       optional: true
     youtubei.js:
       optional: true
-  checksum: 10c0/5b38ddeb63a43f9efc0f912f6ef43e209ec1f9d18192cd841cf0d626729ee760299aee21b9a8948c954374ad4ab5ec2319ce274226d406f090ce0685397f137d
+  checksum: 10c0/efe24e809927b2b2499f61ff8c72feeb1ddd25366f5267d5ea83cc3ef4cbe6bb7e28355d61c2100d85be53328673803bd141f8a0432c26e2bba4a49b8e968afb
   languageName: node
   linkType: hard
 
@@ -6908,7 +6942,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:2.0.0"
     eslint-plugin-unicorn: "npm:52.0.0"
     husky: "npm:9.0.11"
-    langchain: "npm:0.1.34"
+    langchain: "npm:0.1.36"
     lint-staged: "npm:15.2.2"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
