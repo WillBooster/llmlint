@@ -1,4 +1,4 @@
-# Project Information
+## Project Information
 
 - Name: llmlint
 - Description: A linter powered by LLM
