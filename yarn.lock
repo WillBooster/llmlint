@@ -3656,9 +3656,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-js@npm:11.4.1":
-  version: 11.4.1
-  resolution: "@willbooster/eslint-config-js@npm:11.4.1"
+"@willbooster/eslint-config-js@npm:11.4.4":
+  version: 11.4.4
+  resolution: "@willbooster/eslint-config-js@npm:11.4.4"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -3670,15 +3670,15 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/21a1410ec33eae0e1dacdf215b04d44ac95f4e89a5481ffb304fbb72ff042f350f95e807e7f9a3399b4bb6fbac61be470edce4c7e169e99e84a22dcadb606a21
+  checksum: 10c0/4cb71f396387cf5dedad5cf664246a222bbd0cadf980540517cb7a9b6a4e2cd0ef8cde3fc8db7a5eb02ca7cf2e668b2d2ee72fd4d5d237917d46af6f372cca44
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@npm:11.4.1":
-  version: 11.4.1
-  resolution: "@willbooster/eslint-config-ts@npm:11.4.1"
+"@willbooster/eslint-config-ts@npm:11.4.8":
+  version: 11.4.8
+  resolution: "@willbooster/eslint-config-ts@npm:11.4.8"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.1"
+    "@willbooster/eslint-config-js": "npm:11.4.4"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -3693,7 +3693,7 @@ __metadata:
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
-  checksum: 10c0/53679af96c42dea872edc9c619218af7610fb860b54caa67941ea0dda20f64e5b965ce4482e31a46b3db61abbea2158bdcacf0f8b51513714b73f7605050b08f
+  checksum: 10c0/ddb50574d9267c3f81fa0cca5c076a2afb1e895f72656b926394e837c94203a27c653d10431ecf5eec9c346629faef36900087d844b2d3f24c28097b6960c518
   languageName: node
   linkType: hard
 
@@ -7067,7 +7067,7 @@ __metadata:
     "@types/eslint": "npm:8.56.10"
     "@types/node": "npm:22.8.6"
     "@types/yargs": "npm:17.0.32"
-    "@willbooster/eslint-config-ts": "npm:11.4.1"
+    "@willbooster/eslint-config-ts": "npm:11.4.8"
     "@willbooster/prettier-config": "npm:10.2.0"
     build-ts: "npm:12.1.0"
     conventional-changelog-conventionalcommits: "npm:9.0.0"
