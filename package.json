@@ -30,7 +30,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "langchain": "0.1.37",
+    "langchain": "1.0.4",
     "yargs": "17.7.2"
   },
   "devDependencies": {
